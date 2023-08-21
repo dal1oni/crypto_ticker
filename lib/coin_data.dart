@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 const List<String> currenciesList = [
   'AUD',
   'BRL',
@@ -27,5 +29,7 @@ const List<String> cryptoList = [
   'ETH',
   'LTC',
 ];
+
+List items = [];
 
 class CoinData {}
